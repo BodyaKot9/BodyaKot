@@ -11,6 +11,7 @@
 		2E4B9EE8288B44EC00632650 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B9EE7288B44EC00632650 /* ContentView.swift */; };
 		2E4B9EEA288B44ED00632650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4B9EE9288B44ED00632650 /* Assets.xcassets */; };
 		2E4B9EED288B44ED00632650 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4B9EEC288B44ED00632650 /* Preview Assets.xcassets */; };
+		2E4B9EF5288B462A00632650 /* Bogdan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E4B9EF4288B462A00632650 /* Bogdan.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		2E4B9EE7288B44EC00632650 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E4B9EE9288B44ED00632650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E4B9EEC288B44ED00632650 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E4B9EF4288B462A00632650 /* Bogdan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bogdan.ttf; sourceTree = "<group>"; };
+		2E4B9EF6288B464900632650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		2E4B9EE4288B44EC00632650 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				2E4B9EF6288B464900632650 /* Info.plist */,
+				2E4B9EF3288B460500632650 /* Fonts */,
 				2E4B9EE5288B44EC00632650 /* InterfaceApp.swift */,
 				2E4B9EE7288B44EC00632650 /* ContentView.swift */,
 				2E4B9EE9288B44ED00632650 /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				2E4B9EEC288B44ED00632650 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E4B9EF3288B460500632650 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2E4B9EF4288B462A00632650 /* Bogdan.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4B9EF5288B462A00632650 /* Bogdan.ttf in Resources */,
 				2E4B9EED288B44ED00632650 /* Preview Assets.xcassets in Resources */,
 				2E4B9EEA288B44ED00632650 /* Assets.xcassets in Resources */,
 			);
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = DQ8JG7G27K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Interface/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = DQ8JG7G27K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Interface/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
